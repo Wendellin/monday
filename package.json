@@ -1,18 +1,16 @@
 {
-  "name": "Node-Website-EC2-Sample-App",
-  "description": "Sample NodeJs web application",
-  "version": "0.0.1",
-  "private": true,
-  "devDependencies": {
-    "mocha": "5.0.0",
-    "unit.js": "2.1.1",
-    "supertest": "3.0.0"
-  },
-  "scripts": {
-    "test": "mocha --recursive tests --exit",
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "forever": "4.0.0"
-  }
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^0.7.5",
+        "sass": "^1.56.1",
+        "vite": "^4.0.0"
+    }
 }
